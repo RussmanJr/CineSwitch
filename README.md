@@ -2,6 +2,8 @@
 
 Welcome to the Video Player Project! This project provides a customizable video player with a playlist feature. You can easily watch your favorite videos, create playlists, and enjoy a smooth video-watching experience.
 
+**Please note that this project should be run on a local web server** to ensure its functionality works correctly.
+
 This project is a work in progress, and we are continuously improving it to offer the best user experience. Feel free to explore the project and contribute to its development.
 
 ## Features
