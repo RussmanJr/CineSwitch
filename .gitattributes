@@ -1,2 +1,28 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE or code editor files
+.vscode/
+.idea/
+
+# Ignore Node.js related files
+node_modules/
+npm-debug.log
+
+# Ignore compiled output or build directories
+dist/
+build/
+out/
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore package-lock.json
+package-lock.json
