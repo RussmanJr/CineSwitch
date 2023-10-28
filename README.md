@@ -33,7 +33,7 @@ The "view-modes.js" file is a feature that has not been implemented in the proje
 
 Contributions and ideas for implementing this feature are welcome. If you'd like to contribute, you can fork the repository, work on your own implementation, and submit a pull request to help bring this feature to life. Your contributions will be greatly appreciated!
 
-We are actively looking for contributors to help with this feature. If you have any ideas or would like to collaborate, please get in touch with [Your Name](https://github.com/RussmanJr).
+We are actively looking for contributors to help with this feature. If you have any ideas or would like to collaborate, please get in touch with [RussmanJr](https://github.com/RussmanJr).
 
 Feel free to check back for updates on the implementation of view modes.
 
