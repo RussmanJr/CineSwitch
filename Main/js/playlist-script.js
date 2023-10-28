@@ -28,7 +28,7 @@ function createPlaylist(videoList) {
 // Function to load and play the selected video
 function loadVideo(videoFileName) {
     const videoPlayer = videojs('video-player');
-    videoPlayer.src(`videos/${videoFileName}`); // Update the video source
+    videoPlayer.src(`videos/${videoFileName}`); // Update the video source with the 'videos' directory
     videoPlayer.load();
     videoPlayer.play();
 }
