@@ -19,18 +19,26 @@ function createPlaylist(videoList) {
         const listItem = document.createElement('li');
         listItem.textContent = videoNameWithoutExtension; // Display the name without the extension
         listItem.className = 'list-group-item';
-        listItem.onclick = () => loadVideo(videoFileName); // Add click event to load video
+        listItem.onclick = () => loadVideo(videoFileName); // Add click event to load and play video
 
         playlist.appendChild(listItem);
     });
+
+    // Load the first video without playing it
+    if (videoList.length > 0) {
+        loadVideo(videoList[0], false);
+    }
 }
 
 // Function to load and play the selected video
-function loadVideo(videoFileName) {
+function loadVideo(videoFileName, autoPlay = true) {
     const videoPlayer = videojs('video-player');
     videoPlayer.src(`videos/${videoFileName}`); // Update the video source with the 'videos' directory
     videoPlayer.load();
-    videoPlayer.play();
+    
+    if (autoPlay) {
+        videoPlayer.play(); // Play the video automatically if autoPlay is true
+    }
 }
 
 // Fetch the video list and create the playlist
