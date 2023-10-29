@@ -5,3 +5,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+/* Add styles for mobile layout */
+.mobile-layout {
+    display: block; /* Show elements as blocks on mobile */
+}
+
+
+/* Hide the playlist on screens larger than `sm` */
+@media (min-width: 576px) {
+    .mobile-layout {
+        display: none;
+    }
+}
