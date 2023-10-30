@@ -1,3 +1,20 @@
+/* Custom CSS for the dark-colored navbar */
+.dark-navbar {
+    background-color: #2C3E50; /* Use your preferred dark color */
+}
+
+/* Set the font color to white for elements inside the navbar */
+.dark-navbar a {
+    color: #ffffff; /* Set font color to white */
+}
+
+/* Custom styles for the playlist */
+#video-playlist {
+    background-color: #f3f3f3; /* Darker white background */
+    max-height: 400px; /* Maximum height, make it scrollable */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
 /* Center the play button within the video player */
 .video-js .vjs-big-play-button {
     position: absolute;
@@ -6,16 +23,15 @@
     transform: translate(-50%, -50%);
 }
 
-
-/* Add styles for mobile layout */
-.mobile-layout {
-    display: block; /* Show elements as blocks on mobile */
-}
-
-
-/* Hide the playlist on screens larger than `sm` */
+/* Styles for larger screens (greater than 576px) */
 @media (min-width: 576px) {
-    .mobile-layout {
-        display: none;
+    .video-container {
+        display: flex;
+    }
+    #video-player {
+        flex: 2;
+    }
+    #video-playlist {
+        flex: 1;
     }
 }
