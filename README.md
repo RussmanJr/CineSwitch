@@ -1,6 +1,6 @@
-# Video Player Project
+# CineSwitch
 
-Welcome to the **Video Player Project**, a customizable, feature-rich video player equipped with a playlist functionality. This project allows you to easily watch your favorite videos and switch between them with ease, offering a smooth and responsive video-watching experience across devices.
+Welcome to **CineSwitch**, a customizable, feature-rich video player equipped with a playlist functionality. This project allows you to easily watch your favorite videos and switch between them with ease, offering a smooth and responsive video-watching experience across devices.
 
 Please note, for optimal performance, this project should be run on a local or hosted web server.
 
@@ -12,7 +12,7 @@ Please note, for optimal performance, this project should be run on a local or h
 
 ## Usage
 
-To get started with the Video Player Project, follow these steps:
+To get started with CineSwitch, follow these steps:
 
 1. **Clone** the repository to your local machine.
 2. **Set up a local web server** (e.g., XAMPP, WAMP, or a simple Python HTTP server) to run the project.
