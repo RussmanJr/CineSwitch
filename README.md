@@ -19,6 +19,16 @@ To get started with CineSwitch, follow these steps:
 3. **Open** the `index.html` file in your web browser.
 4. **Import Videos**: To add videos to the player, place your video files in the `videos` directory within the project folder. Supported formats include `.mp4`, `.webm`, and `.ogg`. The playlist will automatically detect and list all videos stored in the `videos` folder.
 
+### Included Demonstration Video Files
+
+This project comes with three demonstration video files for testing and showcasing the video player's functionality. These files are included in the project's releases and are located in the `videos` folder:
+
+- `Big Buck Bunny - Trailer.mp4`
+- `Sahara Desert & Dubai Desert.mp4`
+- `Sea Waves & Beach.mp4`
+
+These files can be replaced with your own video files for production use.
+
 ## Technologies Used
 
 This project utilizes the following technologies:
@@ -35,3 +45,4 @@ For any questions or collaboration opportunities, please contact **RussmanJr**.
 ## License
 
 This project is licensed under the MIT License.
+
