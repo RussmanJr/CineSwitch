@@ -5,6 +5,13 @@ $directory = __DIR__ . '/videos'; // Use the 'videos' directory as the video fil
 // Create an empty array to store video file names
 $videoFiles = [];
 
+// Check if the directory is accessible
+if (!is_dir($directory) || !is_readable($directory)) {
+    http_response_code(500);
+    echo json_encode(['error' => 'Video directory is not accessible.']);
+    exit;
+}
+
 // Scan the directory for video files
 $files = scandir($directory);
 
@@ -17,6 +24,10 @@ foreach ($files as $file) {
     }
 }
 
+// Sanitize file names to prevent XSS
+$sanitizedFiles = array_map('htmlspecialchars', $videoFiles);
+
 // Return the list of video files as JSON
 header('Content-Type: application/json');
-echo json_encode($videoFiles);
+echo json_encode($sanitizedFiles);
+?>

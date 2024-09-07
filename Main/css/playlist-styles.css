@@ -15,12 +15,26 @@
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
-/* Center the play button within the video player */
+/* Ensure the video player container is properly positioned */
+.video-container {
+    position: relative;
+}
+
+/* Override all conflicting styles for the play button */
 .video-js .vjs-big-play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure the play button scales properly on hover or focus */
+.video-js .vjs-big-play-button:focus,
+.video-js .vjs-big-play-button:hover {
+    transform: translate(-50%, -50%) scale(1.2) !important;
 }
 
 /* Styles for larger screens (greater than 576px) */
@@ -50,4 +64,19 @@
         order: 2; /* Ensure playlist appears after video player in stacking order */
         margin-top: 20px; /* Example: Add margin for spacing */
     }
+}
+
+/* Highlight the active playlist item */
+.list-group-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Loading spinner styles */
+#loading-spinner {
+    display: none; /* Start hidden */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007bff; /* Optional color, customize as needed */
 }
