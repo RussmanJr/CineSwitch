@@ -1,55 +1,37 @@
 # Video Player Project
 
-Welcome to the Video Player Project! This project provides a customizable video player with a playlist feature. You can easily watch your favorite videos, create playlists, and enjoy a smooth video-watching experience.
+Welcome to the **Video Player Project**, a customizable, feature-rich video player equipped with a playlist functionality. This project allows you to easily watch your favorite videos and switch between them with ease, offering a smooth and responsive video-watching experience across devices.
 
-**Please note that this project should be run on a local web server** to ensure its functionality works correctly.
-
-This project is a work in progress, and we are continuously improving it to offer the best user experience. Feel free to explore the project and contribute to its development.
+Please note, for optimal performance, this project should be run on a local or hosted web server.
 
 ## Features
 
-- **Customizable Video Player**: Enjoy a feature-rich video player with controls and options for your convenience.
-
-- **Video Playlist**: Create playlists of your favorite videos and easily switch between them.
-
-- **Responsive Design**: The project is designed to work on various screen sizes, making it accessible across devices.
+- **Customizable Video Player**: Enjoy a fully-featured video player with intuitive controls for seamless playback.
+- **Video Playlist**: Easily create and switch between playlists to manage your video collection.
+- **Responsive Design**: Optimized for all screen sizes, ensuring a consistent experience across desktop, tablet, and mobile devices.
 
 ## Usage
 
-To use the Video Player Project, follow these steps:
+To get started with the Video Player Project, follow these steps:
 
-1. Clone the repository to your local machine.
-
-2. Open the `index.html` file in your web browser.
-
-3. Add video files to your playlist and enjoy seamless video playback.
-
-## View Modes (Not Yet Implemented)
-
-The "view-modes.js" file is a feature that has not been implemented in the project yet. When completed, it will provide users with different viewing modes for a more customized video-watching experience. This feature will include options such as:
-
-- Full-screen mode
-- Theater mode
-- Compact view
-- Customizable layouts
-
-Contributions and ideas for implementing this feature are welcome. If you'd like to contribute, you can fork the repository, work on your own implementation, and submit a pull request to help bring this feature to life. Your contributions will be greatly appreciated!
-
-We are actively looking for contributors to help with this feature. If you have any ideas or would like to collaborate, please get in touch with [RussmanJr](https://github.com/RussmanJr).
-
-Feel free to check back for updates on the implementation of view modes.
+1. **Clone** the repository to your local machine.
+2. **Set up a local web server** (e.g., XAMPP, WAMP, or a simple Python HTTP server) to run the project.
+3. **Open** the `index.html` file in your web browser.
+4. **Import Videos**: To add videos to the player, place your video files in the `videos` directory within the project folder. Supported formats include `.mp4`, `.webm`, and `.ogg`. The playlist will automatically detect and list all videos stored in the `videos` folder.
 
 ## Technologies Used
 
-This project uses the following technologies:
+This project utilizes the following technologies:
 
-- [Video.js](https://videojs.com): A versatile video player library.
-- [Bootstrap](https://getbootstrap.com) (Version 5.3.2): A popular front-end framework for responsive web design.
+- **[Video.js](https://videojs.com/)**: A powerful, open-source video player library.
+- **[Bootstrap (v5.3.2)](https://getbootstrap.com/)**: A popular front-end framework for building responsive web interfaces.
 
-## Future Updates
+## Contributions
 
-We plan to continuously enhance this project with additional features and improvements. Stay tuned for upcoming updates and consider contributing to make this project even better!
+We welcome contributions to further improve and expand this project. If you’d like to collaborate, feel free to fork the repository, submit issues, or propose enhancements through pull requests.
+
+For any questions or collaboration opportunities, please contact **RussmanJr**.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
